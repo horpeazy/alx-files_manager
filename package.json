@@ -14,14 +14,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "base64-js": "^1.5.1",
     "bull": "^3.16.0",
     "chai-http": "^4.3.0",
     "express": "^4.17.1",
     "image-thumbnail": "^1.0.10",
+    "lint": "^0.8.19",
     "mime-types": "^2.1.27",
     "mongodb": "^3.5.9",
     "redis": "^2.8.0",
     "sha1": "^1.1.1",
+    "sharp": "^0.32.5",
     "uuid": "^8.2.0"
   },
   "devDependencies": {
@@ -32,7 +35,7 @@
     "@babel/register": "^7.8.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
-    "eslint": "^6.4.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
@@ -42,3 +45,4 @@
     "sinon": "^7.5.0"
   }
 }
+
